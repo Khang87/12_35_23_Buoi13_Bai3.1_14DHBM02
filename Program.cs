@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +15,10 @@ namespace _12_35_5_14DHBM02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            
             Application.Run(new frmlogin());
+            
         }
+
     }
 }

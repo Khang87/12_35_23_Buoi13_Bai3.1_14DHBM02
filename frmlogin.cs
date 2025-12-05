@@ -12,6 +12,7 @@ namespace _12_35_5_14DHBM02
 {
     public partial class frmlogin : Form
     {
+
         public frmlogin()
         {
             InitializeComponent();
@@ -201,6 +202,7 @@ namespace _12_35_5_14DHBM02
             {
                 Check_Status(user);
             }
+
         }
 
     }

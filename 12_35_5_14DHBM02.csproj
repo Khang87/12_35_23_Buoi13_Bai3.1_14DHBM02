@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attendance.cs" />
     <Compile Include="CreateUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,11 +55,19 @@
     </Compile>
     <Compile Include="Create_User.cs" />
     <Compile Include="Database.cs" />
+    <Compile Include="DBConnect.cs" />
     <Compile Include="frmlogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmlogin.Designer.cs">
       <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhanQuyen.cs" />
+    <Compile Include="PhanQuyenGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhanQuyenGUI.Designer.cs">
+      <DependentUpon>PhanQuyenGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
